@@ -65,6 +65,10 @@ public enum DeviiceType: String {
     case iPhone16Pro        = "iPhone 16 Pro"
     case iPhone16ProMax     = "iPhone 16 Pro Max"
     case iPhone16e          = "iPhone 16e"
+    case iPhone17           = "iPhone 17"
+    case iPhone17Pro        = "iPhone 17 Pro"
+    case iPhone17ProMax     = "iPhone 17 Pro Max"
+    case iPhoneAir          = "iPhone Air"
     case iPad2              = "iPad 2"
     case iPad3              = "iPad 3"
     case iPad4              = "iPad 4"
@@ -493,13 +497,37 @@ public struct Deviice {
             self.size = .screen6Dot9Inches
             self.connectivity = .wiFi5G
             self.year = 2024
-
+            
         case "iPhone17,5":
             self.type = .iPhone16e
             self.size = .screen6Dot1Inches
             self.connectivity = .wiFi5G
             self.year = 2025
-
+            
+          case "iPhone18,3":
+              self.type = .iPhone17
+              self.size = .screen6Dot3Inches
+              self.connectivity = .wiFi5G
+              self.year = 2025
+            
+        case "iPhone18,1":
+            self.type = .iPhone17Pro
+            self.size = .screen6Dot3Inches
+            self.connectivity = .wiFi5G
+            self.year = 2025
+          
+        case "iPhone18,2":
+            self.type = .iPhone17ProMax
+            self.size = .screen6Dot9Inches
+            self.connectivity = .wiFi5G
+            self.year = 2025
+          
+        case "iPhone18,4":
+            self.type = .iPhoneAir
+            self.size = .screen6Dot5Inches
+            self.connectivity = .wiFi5G
+            self.year = 2025
+            
         // MARK: iPad
 
         case "iPad2,1":
