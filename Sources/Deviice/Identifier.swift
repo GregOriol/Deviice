@@ -81,7 +81,11 @@ public enum Identifier: String, CaseIterable {
     case iPhone17_3         = "iPhone17,3"
     case iPhone17_4         = "iPhone17,4"
     case iPhone17_5         = "iPhone17,5"
-    
+    case iPhone18_1         = "iPhone18,1"
+    case iPhone18_2         = "iPhone18,2"
+    case iPhone18_3         = "iPhone18,3"
+    case iPhone18_4         = "iPhone18,4"
+
     // MARK: iPad
     case iPad2_1            = "iPad2,1"
     case iPad2_2            = "iPad2,2"
