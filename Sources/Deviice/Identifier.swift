@@ -124,7 +124,13 @@ public enum Identifier: String, CaseIterable {
     case iPad14_9           = "iPad14,9"
     case ipad14_10          = "iPad14,10"
     case iPad14_11          = "iPad14,11"
-    
+    case iPad15_3           = "iPad15,3"
+    case iPad15_4           = "iPad15,4"
+    case iPad15_5           = "iPad15,5"
+    case iPad15_6           = "iPad15,6"
+    case iPad15_7           = "iPad15,7"
+    case iPad15_8           = "iPad15,8"
+
     // MARK: iPad Mini
     case iPad2_5            = "iPad2,5"
     case iPad2_6            = "iPad2,6"
