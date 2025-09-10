@@ -33,7 +33,8 @@ public enum ScreenSize: String {
     case screen10Dot9Inch       = "10,9 inch"
     case screen11Inch           = "11 inch"
     case screen12Dot9Inch       = "12,9 inch"
-    
+    case screen13Inch           = "13 inch"
+
     /// This is the value as `Double` of the screen size.
     var value: Double {
         switch self {
@@ -56,6 +57,7 @@ public enum ScreenSize: String {
         case .screen10Dot9Inch:         return 10.9
         case .screen11Inch:             return 11
         case .screen12Dot9Inch:         return 12.9
+        case .screen13Inch:             return 13
         case .unknown:                  return 0
         default:                        return 0
         }

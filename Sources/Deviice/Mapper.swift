@@ -100,7 +100,10 @@ public struct Mapper {
         case .iPad13_18, .iPad13_19:                        return .iPad10
         case .iPad14_8, .iPad14_9:                          return .iPadAir11Inch6
         case .ipad14_10, .iPad14_11:                        return .iPadAir13Inch6
-        
+        case .iPad15_3, .iPad15_4:                          return .iPadAir11Inch7
+        case .iPad15_5, .iPad15_6:                          return .iPadAir13Inch7
+        case .iPad15_7, .iPad15_8:                          return .iPad11
+
             
         // MARK: iPad minis
         case .iPad2_5, .iPad2_6, .iPad2_7:                  return .iPadMini
@@ -327,8 +330,10 @@ public struct Mapper {
                 .iPadPro11Inch5,
                 .iPadAir11Inch6,
                 .iPadPro11Inch6,
-                .iPadPro11Inch7:
-            
+                .iPadPro11Inch7,
+                .iPadAir11Inch7,
+                .iPad11:
+
             return .screen11Inch
             // MARK: 12.9
         case
@@ -338,11 +343,15 @@ public struct Mapper {
                 .iPadPro12Inch4,
                 .iPadPro12Inch5,
                 .iPadPro12Inch6,
-                .iPadAir13Inch6,
                 .iPadPro12Inch7:
-            
+
             return .screen12Dot9Inch
-            
+
+        case .iPadAir13Inch6,
+             .iPadAir13Inch7:
+
+            return .screen13Inch
+
         case .iPhone16Pro,
              .iPhone17,
              .iPhone17Pro:

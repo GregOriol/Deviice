@@ -88,12 +88,15 @@ public enum Model {
     case iPadAir5
     case iPadAir11Inch6
     case iPadAir13Inch6
+    case iPadAir11Inch7
+    case iPadAir13Inch7
     case iPad5
     case iPad6
     case iPad7
     case iPad8
     case iPad9
     case iPad10
+    case iPad11
     case iPadMini
     case iPadMini2
     case iPadMini3
@@ -205,12 +208,15 @@ public extension Model {
         case .iPadAir5:                         return "iPad Air 5"
         case .iPadAir11Inch6:                   return "iPad Air 11' (6th generation)"
         case .iPadAir13Inch6:                   return "iPad Air 13' (6th generation)"
+        case .iPadAir11Inch7:                   return "iPad Air 11' (7th generation)"
+        case .iPadAir13Inch7:                   return "iPad Air 13' (7th generation)"
         case .iPad5:                            return "iPad 5"
         case .iPad6:                            return "iPad 6"
         case .iPad7:                            return "iPad 7"
         case .iPad8:                            return "iPad 8"
         case .iPad9:                            return "iPad 9"
         case .iPad10:                           return "iPad 10"
+        case .iPad11:                           return "iPad 11"
         case .iPadMini:                         return "iPad mini"
         case .iPadMini2:                        return "iPad mini 2"
         case .iPadMini3:                        return "iPad mini 3"
