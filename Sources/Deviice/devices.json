@@ -1082,7 +1082,70 @@
         "hasUltraWide": false,
         "appleIntelligence": true
     },
-    
+    "iPhone18,3": {
+        "identifier": "iPhone18,3",
+        "screenSize": 6.3,
+        "year": 2025,
+        "marketingName": "iPhone 17",
+        "genericModel": "iPhone17",
+        "specificModelRaw": "iPhone17",
+        "chip": "A19",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED",
+        "connectivity": "5G",
+        "portType": "USB-C",
+        "cameraMegapixels": 48,
+        "hasUltraWide": true,
+        "appleIntelligence": true
+    },
+    "iPhone18,4": {
+        "identifier": "iPhone18,4",
+        "screenSize": 6.5,
+        "year": 2025,
+        "marketingName": "iPhone Air",
+        "genericModel": "iPhoneAir",
+        "specificModelRaw": "iPhoneAir",
+        "chip": "A19",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED",
+        "connectivity": "5G",
+        "portType": "USB-C",
+        "cameraMegapixels": 48,
+        "hasUltraWide": true,
+        "appleIntelligence": true
+    },
+    "iPhone18,1": {
+        "identifier": "iPhone18,1",
+        "screenSize": 6.3,
+        "year": 2024,
+        "marketingName": "iPhone 17 Pro",
+        "genericModel": "iPhone16",
+        "specificModelRaw": "iPhone17Pro",
+        "chip": "A19 Pro",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED",
+        "connectivity": "5G",
+        "portType": "USB-C",
+        "cameraMegapixels": 48,
+        "hasUltraWide": true,
+        "appleIntelligence": true
+    },
+    "iPhone18,2": {
+        "identifier": "iPhone18,2",
+        "screenSize": 6.9,
+        "year": 2024,
+        "marketingName": "iPhone 17 Pro Max",
+        "genericModel": "iPhone16",
+        "specificModelRaw": "iPhone17ProMax",
+        "chip": "A19 Pro",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED",
+        "connectivity": "5G",
+        "portType": "USB-C",
+        "cameraMegapixels": 48,
+        "hasUltraWide": true,
+        "appleIntelligence": true
+    },
     
     
     
@@ -2529,7 +2592,7 @@
         "appleIntelligence": true
     },
     "iPad15,5": {
-        "identifier": "iPad15,3",
+        "identifier": "iPad15,5",
         "screenSize": 13,
         "year": 2025,
         "marketingName": "iPad Air 13-inch (7th generation)",
@@ -2544,8 +2607,8 @@
         "hasUltraWide": true,
         "appleIntelligence": true
     },
-    "iPad15,7": {
-        "identifier": "iPad15,7",
+    "iPad15,6": {
+        "identifier": "iPad15,6",
         "screenSize": 11,
         "year": 2025,
         "marketingName": "iPad Air 13-inch (7th generation)",
@@ -2560,23 +2623,38 @@
         "hasUltraWide": true,
         "appleIntelligence": true
     },
+    "iPad15,7": {
+        "identifier": "iPad15,7",
+        "screenSize": 11,
+        "year": 2025,
+        "marketingName": "iPad (11th generation)",
+        "genericModel": "iPad11",
+        "specificModelRaw": "iPad11Inch11",
+        "chip": "A16",
+        "biometricSupport": "Touch ID",
+        "displayType": "LCD",
+        "connectivity": "WiFi",
+        "portType": "USB-C",
+        "cameraMegapixels": 12,
+        "hasUltraWide": false,
+        "appleIntelligence": true
+    },
     "iPad15,8": {
         "identifier": "iPad15,8",
         "screenSize": 11,
         "year": 2025,
-        "marketingName": "iPad Air 11-inch (7th generation)",
-        "genericModel": "iPadAir7",
-        "specificModelRaw": "iPadAir11Inch7",
-        "chip": "M3",
+        "marketingName": "iPad (11th generation)",
+        "genericModel": "iPad11",
+        "specificModelRaw": "iPad11Inch11",
+        "chip": "A16",
         "biometricSupport": "Touch ID",
         "displayType": "LCD",
         "connectivity": "WiFi+Cellular",
         "portType": "USB-C",
         "cameraMegapixels": 12,
-        "hasUltraWide": true,
+        "hasUltraWide": false,
         "appleIntelligence": true
     },
-    
     
     
     
