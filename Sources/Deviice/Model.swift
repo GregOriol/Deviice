@@ -124,7 +124,7 @@ public enum Model: String, Codable {
     case iPadPro11Inch6
     case iPadPro129Inch6
     case iPadPro11Inch7
-    case iPadPro129Inch7
+    case iPadPro13Inch7
             
     // MARK: Simulator
     case simulator
