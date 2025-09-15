@@ -71,6 +71,11 @@ public enum Model {
     case iPhone16Plus
     case iPhone16Pro
     case iPhone16ProMax
+    case iPhone16e
+    case iPhone17
+    case iPhone17Pro
+    case iPhone17ProMax
+    case iPhoneAir
             
     // MARK: iPad
     case iPad2
@@ -83,12 +88,15 @@ public enum Model {
     case iPadAir5
     case iPadAir11Inch6
     case iPadAir13Inch6
+    case iPadAir11Inch7
+    case iPadAir13Inch7
     case iPad5
     case iPad6
     case iPad7
     case iPad8
     case iPad9
     case iPad10
+    case iPad11
     case iPadMini
     case iPadMini2
     case iPadMini3
@@ -183,7 +191,12 @@ public extension Model {
         case .iPhone16Plus:                     return "iPhone 16 Plus"
         case .iPhone16Pro:                      return "iPhone 16 Pro"
         case .iPhone16ProMax:                   return "iPhone 16 Pro Max"
-                
+        case .iPhone16e:                        return "iPhone 16e"
+        case .iPhone17:                         return "iPhone 17"
+        case .iPhone17Pro:                      return "iPhone 17 Pro"
+        case .iPhone17ProMax:                   return "iPhone 17 Pro Max"
+        case .iPhoneAir:                        return "iPhone Air"
+
         // MARK: iPad
         case .iPad2:                            return "iPad 2"
         case .iPad3:                            return "iPad 3"
@@ -195,12 +208,15 @@ public extension Model {
         case .iPadAir5:                         return "iPad Air 5"
         case .iPadAir11Inch6:                   return "iPad Air 11' (6th generation)"
         case .iPadAir13Inch6:                   return "iPad Air 13' (6th generation)"
+        case .iPadAir11Inch7:                   return "iPad Air 11' (7th generation)"
+        case .iPadAir13Inch7:                   return "iPad Air 13' (7th generation)"
         case .iPad5:                            return "iPad 5"
         case .iPad6:                            return "iPad 6"
         case .iPad7:                            return "iPad 7"
         case .iPad8:                            return "iPad 8"
         case .iPad9:                            return "iPad 9"
         case .iPad10:                           return "iPad 10"
+        case .iPad11:                           return "iPad 11"
         case .iPadMini:                         return "iPad mini"
         case .iPadMini2:                        return "iPad mini 2"
         case .iPadMini3:                        return "iPad mini 3"
