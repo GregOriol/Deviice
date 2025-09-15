@@ -1136,7 +1136,7 @@
         "year": 2025,
         "marketingName": "iPhone Air",
         "genericModel": "iPhoneAir",
-        "specificModelRaw": "iPhoneAir",
+        "specificModelRaw": "iPhoneAir1",
         "chip": "A19 Pro",
         "biometricSupport": "Face ID",
         "displayType": "OLED ProMotion",
@@ -2640,8 +2640,70 @@
         "hasUltraWide": true,
         "appleIntelligence": true
     },
-    
-    
+    "iPad16,3": {
+        "identifier": "iPad16,3",
+        "screenSize": 11.1,
+        "year": 2024,
+        "marketingName": "iPad Pro 11-inch (7th generation)",
+        "genericModel": "iPadPro11Inch7",
+        "specificModelRaw": "iPadPro11Inch7",
+        "chip": "M4",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED (Ultra Retina XDR)",
+        "connectivity": "WiFi",
+        "portType": "USB-C",
+        "cameraMegapixels": 12,
+        "hasUltraWide": false,
+        "appleIntelligence": true
+    },
+    "iPad16,4": {
+        "identifier": "iPad16,4",
+        "screenSize": 11.1,
+        "year": 2024,
+        "marketingName": "iPad Pro 11-inch (7th generation)",
+        "genericModel": "iPadPro11Inch7",
+        "specificModelRaw": "iPadPro11Inch7",
+        "chip": "M4",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED (Ultra Retina XDR)",
+        "connectivity": "WiFi+Cellular",
+        "portType": "USB-C",
+        "cameraMegapixels": 12,
+        "hasUltraWide": false,
+        "appleIntelligence": true
+    },
+    "iPad16,5": {
+        "identifier": "iPad16,5",
+        "screenSize": 13.0,
+        "year": 2024,
+        "marketingName": "iPad Pro 13-inch (7th generation)",
+        "genericModel": "iPadPro129Inch7",
+        "specificModelRaw": "iPadPro129Inch7",
+        "chip": "M4",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED (Ultra Retina XDR)",
+        "connectivity": "WiFi",
+        "portType": "USB-C",
+        "cameraMegapixels": 12,
+        "hasUltraWide": false,
+        "appleIntelligence": true
+    },
+    "iPad16,6": {
+        "identifier": "iPad16,6",
+        "screenSize": 13.0,
+        "year": 2024,
+        "marketingName": "iPad Pro 13-inch (7th generation)",
+        "genericModel": "iPadPro13Inch7",
+        "specificModelRaw": "iPadPro129Inch7",
+        "chip": "M4",
+        "biometricSupport": "Face ID",
+        "displayType": "OLED (Ultra Retina XDR)",
+        "connectivity": "WiFi+Cellular",
+        "portType": "USB-C",
+        "cameraMegapixels": 12,
+        "hasUltraWide": false,
+        "appleIntelligence": true
+    },
     
     
     
