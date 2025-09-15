@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Model.swift
 //  Deviice
 //
 //  Created by Andrea Mario Lufino on 17/03/25.
@@ -71,6 +71,9 @@ public enum Model: String, Codable {
     case iPhone16Pro
     case iPhone16ProMax
     case iPhone16e
+    case iPhone17
+    case iPhone17Pro
+    case iPhoneAir1
             
     // MARK: iPad
     
