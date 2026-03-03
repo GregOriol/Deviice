@@ -24,30 +24,18 @@ struct DeviiceTests {
         try #require(devices.isEmpty == false, "Devices is empty")
 
         for device in devices.values {
-//            print("Identifier: \(device.identifier) - Model: \(device.specificModel)")
             #expect(device.identifier.isEmpty == false)
-            if device.identifier != "iPad8080,8" {
-                #expect(device.specificModel != .notMapped)
-                if device.specificModel == .notMapped {
-                    print("Identifier \(device.identifier) is notMapped.")
-                }
+            #expect(device.specificModel != .notMapped)
+            if device.specificModel == .notMapped {
+                print("Identifier \(device.identifier) is notMapped.")
             }
         }
     }
     
     @Test func validateNotMappedDevice() async throws {
-        
-        let devices = try loadJSON()
-        try #require(devices.isEmpty == false, "Devices is empty")
-
-        guard let iPad8080 = devices["iPad8080,8"] else {
-            Issue.record()
-            return
-        }
-
-        print(iPad8080)
-        #expect(iPad8080.specificModel == .notMapped)
-        #expect(iPad8080.specificModelRaw == "iPad8080")
+        let unknown = Device(identifier: "iPad9999,9")
+        #expect(unknown.specificModel == .notMapped)
+        #expect(unknown.isNotMapped == true)
     }
 
     private func loadJSON() throws -> [String: Device] {
